@@ -1,0 +1,47 @@
+.section-montaña{
+    background-color: $white;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-image: url(/assets/img/result-montaña-negra.svg);
+    
+}
+.contenedor-cartas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.cards{
+    background-color: white;
+    width: 280px;
+    height: 400px;
+    margin: 18px;
+    
+}
+
+.titulo-precios{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+@media (min-width: 576px) {
+    .contenedor-cartas{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .cards{
+        
+        margin: 18px 50px;
+        
+    }
+
+}

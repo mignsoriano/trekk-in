@@ -1,0 +1,29 @@
+.fondo-header{
+    height: auto;
+    width: 100%;
+    background-color: greenyellow;
+    color: red;
+    background-image: url(/assets/img/header-minimizado.svg);
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: right;
+    padding-bottom: 400px;
+}
+
+ @media (min-width: 576px) {
+
+    .fondo-header{
+        height: 1000px;
+        width: 100%;
+        background-color: greenyellow;
+        color: red;
+        background-image: url(/assets/img/header-minimizado.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top;
+        
+    }
+
+    
+
+ }

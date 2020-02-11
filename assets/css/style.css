@@ -307,7 +307,6 @@ body {
   height: auto;
   width: 100%;
   background-color: #FFF;
-  color: red;
   background-image: url(/assets/img/header-minimizado.svg);
   background-repeat: no-repeat;
   background-size: 170%;
@@ -315,16 +314,46 @@ body {
   padding-bottom: 400px;
 }
 
+.texto-header {
+  width: 300px;
+  font-family: "Raleway", sans-serif;
+  margin-left: 10px;
+}
+
+.titulo-header {
+  font-size: 45px;
+}
+
+.parrafo-header {
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 350px;
+}
+
 @media (min-width: 576px) {
   .fondo-header {
     height: 550px;
     width: 100%;
     background-color: #FFF;
-    color: red;
     background-image: url(/assets/img/header-minimizado.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
+  }
+
+  .texto-header {
+    width: 500px;
+    font-family: "Raleway", sans-serif;
+    margin-left: 200px;
+  }
+
+  .parrafo-header {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .titulo-header {
+    font-size: 50px;
   }
 }
 .bloque-carac {
@@ -360,6 +389,20 @@ body {
   margin: 0em;
 }
 
+/*ANIMATION ELEMENT*/
+.animation-element {
+  opacity: 0;
+  position: relative;
+  transition: all 500ms linear;
+  transform: translate3d(0px, 10px, 0px);
+  transition-delay: 0.5s;
+}
+
+.animation-element.in-view {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
 @media (min-width: 576px) {
   .bloque-carac {
     display: flex;
@@ -369,7 +412,7 @@ body {
   }
 
   .grafico {
-    height: 200px;
+    height: 150px;
     margin-right: 50px;
   }
 
@@ -402,7 +445,7 @@ footer {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
   background-image: url(/assets/img/result-montaña-negra.svg);
 }
 
@@ -443,10 +486,10 @@ footer {
 .titulo-precios {
   display: flex;
   justify-content: center;
-  margin-top: 300px;
   font-family: "Raleway", sans-serif;
   color: white;
   font-size: 35px;
+  margin-top: 250px;
 }
 
 .titulo-promo {
@@ -470,40 +513,17 @@ footer {
   font-size: 15px;
 }
 
-.grafico {
-  height: 150px;
-  margin: 0em;
-}
-
-.bloque-carac {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  font-family: "Raleway", sans-serif;
-}
-
-.parrafo-carac {
-  width: 300px;
-  margin: 7px;
-  text-align: left;
-}
-
-.titulo-estadisticas {
-  margin: 7px;
-  font-size: 20px;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.titulo-carac {
-  font-family: "Raleway", sans-serif;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 150px;
-}
-
 @media (min-width: 576px) {
+  .section-montaña {
+    background-color: #FFF;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-image: url(/assets/img/result-montaña-negra.svg);
+  }
+
   .contenedor-cartas {
     display: flex;
     justify-content: center;
@@ -512,23 +532,6 @@ footer {
 
   .cards {
     margin: 18px 50px;
-  }
-
-  .bloque-carac {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    font-family: "Raleway", sans-serif;
-  }
-
-  .grafico {
-    height: 200px;
-    margin-right: 50px;
-  }
-
-  .parrafo-carac {
-    width: 400px;
-    text-align: left;
   }
 }
 

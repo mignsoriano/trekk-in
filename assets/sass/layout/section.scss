@@ -47,6 +47,7 @@
     font-family: 'Raleway', sans-serif;
     color: white;
     font-size: 35px;
+    margin-top: 250px;
 }
 
 .titulo-promo{
@@ -77,6 +78,16 @@
 
 
 @media (min-width: 576px) {
+    .section-montaña{
+        background-color: $white;
+        height: auto;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-image: url(/assets/img/result-montaña-negra.svg);
+        
+    }
     .contenedor-cartas{
         display: flex;
         justify-content: center;

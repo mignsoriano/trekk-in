@@ -1,7 +1,7 @@
 .fondo-header{
     height: auto;
     width: 100%;
-    background-color: greenyellow;
+    background-color: $white;
     color: red;
     background-image: url(/assets/img/header-minimizado.svg);
     background-repeat: no-repeat;
@@ -13,9 +13,9 @@
  @media (min-width: 576px) {
 
     .fondo-header{
-        height: 1000px;
+        height: 550px;
         width: 100%;
-        background-color: greenyellow;
+        background-color: $white;
         color: red;
         background-image: url(/assets/img/header-minimizado.svg);
         background-repeat: no-repeat;

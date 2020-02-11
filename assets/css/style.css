@@ -303,7 +303,7 @@ body {
     grid-column: span 1;
   }
 }
-header {
+.fondo-header {
   height: auto;
   width: 100%;
   background-color: greenyellow;
@@ -316,7 +316,7 @@ header {
 }
 
 @media (min-width: 576px) {
-  header {
+  .fondo-header {
     height: 1000px;
     width: 100%;
     background-color: greenyellow;

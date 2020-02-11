@@ -364,9 +364,29 @@ footer {
 
 .cards {
   background-color: white;
-  width: 280px;
-  height: 400px;
+  width: 250px;
+  height: 450px;
   margin: 18px;
+  text-align: left;
+  padding: 0px 20px;
+}
+
+.textos-cartas {
+  font-family: "Raleway", sans-serif;
+}
+
+.precio {
+  font-size: 45px;
+  font-weight: 700;
+  font-style: bold;
+  margin-top: 0px;
+}
+
+.precio-diferente {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: bold;
+  margin-top: 0px;
 }
 
 .titulo-precios {
@@ -376,6 +396,27 @@ footer {
   font-family: "Raleway", sans-serif;
   color: white;
   font-size: 35px;
+}
+
+.titulo-promo {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.linea {
+  width: 100%;
+  margin: 0px;
+}
+
+.boton-cajas {
+  width: 250px;
+  padding: 3%;
+  background-color: #2ab7ca;
+  color: #FFF;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 15px;
 }
 
 @media (min-width: 576px) {

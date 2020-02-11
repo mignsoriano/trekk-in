@@ -304,20 +304,20 @@ body {
   }
 }
 .fondo-header {
-  height: auto;
+  height: 550px;
   width: 100%;
   background-color: #FFF;
   background-image: url(/assets/img/header-minimizado.svg);
   background-repeat: no-repeat;
   background-size: 170%;
   background-position: right;
-  padding-bottom: 400px;
 }
 
 .texto-header {
   width: 300px;
   font-family: "Raleway", sans-serif;
   margin-left: 10px;
+  padding-top: 10px;
 }
 
 .titulo-header {
@@ -327,24 +327,27 @@ body {
 .parrafo-header {
   font-size: 20px;
   line-height: 40px;
-  margin-bottom: 350px;
+  margin-bottom: 0px;
 }
 
 @media (min-width: 576px) {
   .fondo-header {
-    height: 550px;
+    height: autopx;
     width: 100%;
     background-color: #FFF;
     background-image: url(/assets/img/header-minimizado.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
+    padding-bottom: 400px;
   }
 
   .texto-header {
     width: 500px;
     font-family: "Raleway", sans-serif;
     margin-left: 200px;
+    position: absolute;
+    bottom: 400px;
   }
 
   .parrafo-header {

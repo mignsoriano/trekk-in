@@ -27,7 +27,9 @@ body {
   height: 30px;
   margin-top: 10px;
   color: #FFF;
-  padding: 0px 10px;
+  padding: 0px 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
 }
 
 /* Add a black background color to the top navigation */
@@ -406,7 +408,7 @@ body {
   height: 550px;
   width: 100%;
   background-color: #FFF;
-  background-image: url(/assets/img/header-minimizado.svg);
+  background-image: url(../img/bg-hero.svg);
   background-repeat: no-repeat;
   background-size: 170%;
   background-position: right;
@@ -434,7 +436,7 @@ body {
     height: autopx;
     width: 100%;
     background-color: #FFF;
-    background-image: url(/assets/img/header-minimizado.svg);
+    background-image: url(../img/bg-hero.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
@@ -547,8 +549,8 @@ footer {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
-  background-image: url(/assets/img/result-montaña-negra.svg);
+  background-position: top;
+  background-image: url(../img/bg-price.svg);
 }
 
 .contenedor-cartas {
@@ -623,7 +625,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    background-image: url(/assets/img/result-montaña-negra.svg);
+    background-image: url(../img/bg-price.svg);
   }
 
   .contenedor-cartas {
